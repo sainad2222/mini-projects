@@ -1,8 +1,8 @@
 import requests
 def calc(i):
-    return f'https://lecturenotes.in/material/v2/85/page-{i}?noOfItems=10'
+    return f'https://lecturenotes.in/material/v2/85/page-{i}?noOfItems=10'      # CHANGE
 data = []
-totalPages = 231
+totalPages = 231        # CHANGE
 for i in range(1,totalPages,10):
     res = requests.get(calc(i))
     data.extend(res.json()['page'])
