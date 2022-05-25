@@ -8,3 +8,5 @@ Mini Scripts for real world problems to save time
 [file_rename.py](file_rename.py) -> To recursively clean file names in directories
 
 [lecturenotesDownloader.py](lecturenotesDownloader.py) -> To download notes from Lecturenotes
+
+[whatsapp_chat_analyzer](whatsapp_chat_analyzer.py) -> Data Analysis of exported whatsapp chat
